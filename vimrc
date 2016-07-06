@@ -346,6 +346,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_enable_highlighting = 0
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 " let g:syntastic_mode_map = { 'passive_filetypes': ['sass', 'haml'] }
 
 "-----------------------------------------------------------------
