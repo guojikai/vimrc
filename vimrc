@@ -362,10 +362,19 @@ au BufNewFile,BufRead *.conf set filetype=nginx
 map <silent> <leader>js <Esc>:%!python -m json.tool<CR>
 
 " File: Markdown
-Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 let g:vim_markdown_folding_disabled = 1
 
 " File: PHP
+
+
+" File: Javascript
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+let g:jsx_ext_required = 0
+let g:jsx_pragma_required = 0
+
 
 call plug#end()
 
