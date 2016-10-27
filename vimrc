@@ -235,7 +235,7 @@ set tags+=/Users/guojikai/workspace/stonechat/api_v2/tags
 set tags+=/Users/guojikai/workspace/tuanpu/web_v1/tags
 
 set nofoldenable " 禁止折叠
-set foldmethod=syntax " 设置语法折叠
+" set foldmethod=syntax " 设置语法折叠
 set foldcolumn=0 " 设置折叠区域的宽度
 setlocal foldlevel=1 " 设置折叠层数为
 " set foldclose=all " 设置为自动关闭折叠
@@ -374,6 +374,9 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 let g:jsx_ext_required = 0
 let g:jsx_pragma_required = 0
+
+" File: Jinja
+Plug 'lepture/vim-jinja'
 
 
 call plug#end()
