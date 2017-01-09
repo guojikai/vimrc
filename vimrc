@@ -230,9 +230,7 @@ let NERDSpaceDelims=1 " 让注释符与语句之间留一个空格
 let NERDCompactSexyComs=1 " 多行注释时样子更好看
 
 set tags=tags
-set tags+=/Users/guojikai/workspace/stonechat/api_v1/tags
-set tags+=/Users/guojikai/workspace/stonechat/api_v2/tags
-set tags+=/Users/guojikai/workspace/tuanpu/web_v1/tags
+set tags+=/Users/guojikai/workspace/shengwo/www.woshidai.com/tags
 
 set nofoldenable " 禁止折叠
 " set foldmethod=syntax " 设置语法折叠
