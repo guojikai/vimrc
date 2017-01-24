@@ -221,8 +221,11 @@ set smartindent " 开启新行时使用智能自动缩进
 " indent guide
 Plug 'nathanaelkane/vim-indent-guides'
 
-" text align
-Plug 'junegunn/vim-easy-align'
+" surrounder
+Plug 'tpope/vim-surround'
+
+" surround
+Plug 'nathanaelkane/vim-indent-guides'
 
 "nerdcommenter
 Plug 'scrooloose/nerdcommenter'
@@ -327,6 +330,9 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
     " return a:char
     " endif
     " endf
+
+vmap <c-v> "+gp
+vmap <c-c> "+y
 
 "-----------------------------------------------------------------
 " syntax check
